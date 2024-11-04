@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Jaxongir va Niginaxon nikoh to'yi</title>
+</head>
+<body>
+<div class="invitation">
+    <header>
+        <h1>Hurmatli Lazizxon!</h1>
+        <p><span class="name">Jaxongir</span> va <span class="name">Nigina</span> <br> nikoh to'yining faxriy mehmoni bo'lishga taklif qilamiz.</p>
+        <p>Qalblar ezguliklarga to‘la bo‘lgan ushbu qutlug‘ kunda <br> biz bilan birga bo‘ling!</p>
+    </header>
+    <section class="details">
+        <p><strong>Bayram boshlanish vaqti:</strong> 14.11.2024 / soat 16:00</p>
+        <p><strong>Manzil:</strong> Jasmin to'yxonasi</p>
+        <a href="https://yandex.uz/maps/-/CDhlYEnT" target="_blank" class="map-button">Xarita orqali ochish</a>
+        <a class="map-button" onclick="musiqa()">Musiqani tinglash</a>
+    </section>
+    <div class="countdown">
+        <div class="time"><div id="days">00</div> <span>kun</span></div>
+        <div class="time"><div id="hours">00</div> <span>soat</span></div>
+        <div class="time"><div id="minutes">00</div> <span>daqiqa</span></div>
+        <div class="time"><div id="seconds">00</div> <span>soniya</span></div>
+        <div class="end">To'y boshlandi!</div>
+    </div>
+    <audio autoplay loop>
+        <source src="qarasang-qarab-qoy.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

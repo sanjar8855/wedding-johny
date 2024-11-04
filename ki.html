@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Муродиллохон ва Мафтунахон никоҳ тўйи</title>
+</head>
+<body>
+<div class="invitation">
+    <header>
+        <h1>Ҳурматли меҳмон!</h1>
+        <p> <span class="name">Муродиллохон </span> ва <span class="name">Мафтунахон</span> <br> никоҳ тўйининг фахрий меҳмони бўлишга таклиф қиламиз.</p>
+        <p>Қалблар эзгуликларга тўла бўлган ушбу қутлуғ кунда <br> биз билан бирга бўлинг!</p>
+    </header>
+    <section class="details">
+        <p><strong>Байрам бошланиш вақти:</strong> 04.09.2024 / соат 18:00</p>
+        <p><strong>Манзил:</strong> Navro'z тўйхонаси</p>
+        <a href="https://yandex.uz/maps/-/CDcWvA4w" target="_blank" class="map-button">Харита орқали очиш</a>
+        <a class="map-button" onclick="musiqa()">Мусиқани тинглаш</a>
+    </section>
+    <div class="countdown">
+        <div class="time"><div id="days">00</div> <span>кун</span></div>
+        <div class="time"><div id="hours">00</div> <span>соат</span></div>
+        <div class="time"><div id="minutes">00</div> <span>дақиқа</span></div>
+        <div class="time"><div id="seconds">00</div> <span>сония</span></div>
+        <div class="end">Тўй бошланди!</div>
+    </div>
+    <audio autoplay loop>
+        <source src="ziyoda-kelibdi.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

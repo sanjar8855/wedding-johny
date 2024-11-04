@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<title>Жахонгир ва Нигина</title>
+</head>
+<body>
+<div class="invitation">
+    <header>
+        <h1>Дорогой гость!</h1>
+        <p> 
+            Приглашаем вас на нашу свадьбу!
+            <br>
+            <span class="name">Жахонгир </span> и <span class="name">Нигина</span>
+        </p>
+        <!-- <p>Қалблар эзгуликларга тўла бўлган ушбу қутлуғ кунда <br> биз билан бирга бўлинг!</p> -->
+    </header>
+    <section class="details">
+        <p><strong>Свадьба начинается:</strong> 14.11.2024 / время 16:00</p>
+        <p><strong>Адрес:</strong> Свадебный зал Жасмин</p>
+        <a href="https://yandex.uz/maps/-/CDcWvA4w" target="_blank" class="map-button">Открыть на карте</a>
+        <a class="map-button" onclick="musiqa()">Слушать музыку</a>
+    </section>
+    <div class="countdown">
+        <div class="time"><div id="days">00</div> <span>дней</span></div>
+        <div class="time"><div id="hours">00</div> <span>чясов</span></div>
+        <div class="time"><div id="minutes">00</div> <span>минута</span></div>
+        <div class="time"><div id="seconds">00</div> <span>сикунда</span></div>
+        <div class="end">Понеслось!</div>
+    </div>
+    <audio autoplay loop>
+        <source src="Алексей-Чумаков-Счастье.m4a" type="audio/mpeg">
+    </audio>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
